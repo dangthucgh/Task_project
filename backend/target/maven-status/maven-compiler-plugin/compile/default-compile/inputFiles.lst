@@ -1,3 +1,9 @@
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\config\OpenApiConfig.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\config\SecurityConfig.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\controller\AuthController.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\dto\request\LoginRequest.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\dto\response\LoginResponse.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\dto\response\UserSummaryResponse.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\entity\enums\Priority.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\entity\enums\ProjectStatus.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\entity\enums\Role.java
@@ -14,5 +20,10 @@ C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\examp
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\repository\ProjectRepository.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\repository\TaskRepository.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\repository\UserRepository.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\security\CustomUserDetails.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\security\CustomUserDetailsService.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\security\JwtAuthFilter.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\security\JwtService.java
+C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\service\AuthService.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\specification\TaskSpecification.java
 C:\Users\Admin\Desktop\Java\Project\Task_project\backend\src\main\java\com\example\taskmgmt\TaskMgmtApplication.java
