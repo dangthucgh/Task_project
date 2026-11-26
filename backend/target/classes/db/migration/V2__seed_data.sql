@@ -6,11 +6,11 @@
 -- =====================================================================
 
 INSERT INTO users (id, username, password_hash, full_name, role, active) VALUES
-(1, 'admin',    '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a', 'Quản Trị Hệ Thống', 'ADMIN',   TRUE),
-(2, 'manager1', '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a', 'Nguyễn Văn Quản Lý', 'MANAGER', TRUE),
-(3, 'member1',  '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a', 'Trần Thị Thành Viên 1', 'MEMBER', TRUE),
-(4, 'member2',  '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a', 'Lê Văn Thành Viên 2',   'MEMBER', TRUE),
-(5, 'member3',  '$2a$10$8.UnVuG9HHgffUDAlk8qfOuVGkqRzgVymGe07xd00DMxs.AQubh4a', 'Phạm Thị Ngoài Dự Án',  'MEMBER', TRUE);
+(1, 'admin',    '$2a$10$Azi8kQPoEZMFq8x2xKsjvONUatORJksa3vvYGlkAQRCQscbEUWPLC', 'Quản Trị Hệ Thống', 'ADMIN',   TRUE),
+(2, 'manager1', '$2a$10$Azi8kQPoEZMFq8x2xKsjvONUatORJksa3vvYGlkAQRCQscbEUWPLC', 'Nguyễn Văn Quản Lý', 'MANAGER', TRUE),
+(3, 'member1',  '$2a$10$Azi8kQPoEZMFq8x2xKsjvONUatORJksa3vvYGlkAQRCQscbEUWPLC', 'Trần Thị Thành Viên 1', 'MEMBER', TRUE),
+(4, 'member2',  '$2a$10$Azi8kQPoEZMFq8x2xKsjvONUatORJksa3vvYGlkAQRCQscbEUWPLC', 'Lê Văn Thành Viên 2',   'MEMBER', TRUE),
+(5, 'member3',  '$2a$10$Azi8kQPoEZMFq8x2xKsjvONUatORJksa3vvYGlkAQRCQscbEUWPLC', 'Phạm Thị Ngoài Dự Án',  'MEMBER', TRUE);
 
 -- Dự án mẫu 1: Website Nội Bộ (do manager1 tạo)
 INSERT INTO projects (id, code, name, description, status, created_by) VALUES
