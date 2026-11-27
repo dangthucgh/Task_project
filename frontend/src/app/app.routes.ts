@@ -15,6 +15,9 @@ const authGuard: CanActivateFn = () => {
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: '', component: WorkspaceComponent, canActivate: [authGuard] },
-  { path: '**', redirectTo: '' },
+  { path: 'dashboard', component: WorkspaceComponent, canActivate: [authGuard], data: { tab: 'dashboard' } },
+  { path: 'projects', component: WorkspaceComponent, canActivate: [authGuard], data: { tab: 'projects' } },
+  { path: 'tasks', component: WorkspaceComponent, canActivate: [authGuard], data: { tab: 'tasks' } },
+  { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
+  { path: '**', redirectTo: 'dashboard' },
 ];
